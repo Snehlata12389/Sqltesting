@@ -1,6 +1,6 @@
 use reportserver
 select * from reportserver..Actor
-
+select * from testbales;
 select * from reportserver..Certificate
 select * from reportserver..Producer
 select * from reportserver..Film
