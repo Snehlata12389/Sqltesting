@@ -1,7 +1,7 @@
 use reportserver
 select * from reportserver..Actor
 
-
+select * from reportserver..Certificate
 select * from reportserver..Producer
 select * from reportserver..Film
 select * from reportserver..Genre
