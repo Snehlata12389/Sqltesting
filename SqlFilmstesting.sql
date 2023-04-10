@@ -5,4 +5,5 @@ CREATE TABLE dbo.Actor(
 	fullName  AS (FirstName+isnull(' '+FamilyName,'')),
 	foB datetime NULL,
 	foD datetime NULL,
-	gender nvarchar(20) NULL)
+	gender nvarchar(20) NULL,
+    dateofcreation nvarchar(30))
